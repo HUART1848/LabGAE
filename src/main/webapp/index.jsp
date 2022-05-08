@@ -3,21 +3,21 @@
 <%@ page import="ch.heigvd.cld.lab.HelloAppEngine" %>
 <html>
 <head>
-  <link href='//fonts.googleapis.com/css?family=Marmelad' rel='stylesheet' type='text/css'>
-  <title>Hello App Engine Standard Java 8</title>
+    <link href='//fonts.googleapis.com/css?family=Marmelad' rel='stylesheet' type='text/css'>
+    <title>Hello App Engine Standard Java 8</title>
 </head>
 <body>
-    <h1>Hello App Engine -- Java 8!</h1>
+<h1>Hello App Engine -- Java 8!</h1>
 
-  <p>This is <%= HelloAppEngine.getInfo() %>.</p>
-  <table>
+<p>This is <%= HelloAppEngine.getInfo() %>.</p>
+<table>
     <tr>
-      <td colspan="2" style="font-weight:bold;">Available Servlets:</td>
+        <td colspan="2" style="font-weight:bold;">Available Servlets:</td>
     </tr>
     <tr>
-      <td><a href='/hello'>Hello App Engine</a></td>
+        <td><a href='/hello'>Hello App Engine</a></td>
+        <td><a href="/datastorewrite">Datastore Write</a></td>
     </tr>
-  </table>
-
+</table>
 </body>
 </html>
